@@ -208,7 +208,7 @@ h1 span {
 
 /* ── STATS BAR (nouveau) ── */
 .stats-bar {
-    display: flex; justify-content: center; gap: 3rem;
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem 2.5rem;
     max-width: 1100px; margin: 0 auto;
     padding: 2rem 2.5rem;
     opacity: 0; animation: fadeUp 0.7s 1s ease forwards;
